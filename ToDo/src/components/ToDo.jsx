@@ -118,7 +118,7 @@ const handleEditClick = (todo) => {
     
         </div>
       </div>
-      <div className="w-[30-rem] bg-white shadow py-6 px-4">
+      <div className="w-[30-rem] bg-white shadow py-6 px-4 rounded-sm">
         <fieldset className="space-y-4">
           <legend className="text-black-600 font-medium">List of tasks</legend>
           {todoList.length === 0 ? (
